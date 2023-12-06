@@ -46,7 +46,7 @@ let producto = [
       if (productoBuscado != null) {
         var respuesta = confirm("Encontre el producto !! \n" +  JSON.stringify(productoBuscado) + "\n¿Quieres actualizarlo?");
         if (respuesta) {
-          var nuevoNombre = prompt("Por favor, ingrese el nuevo precio:");
+          var nuevoNombre = prompt("Por favor, ingrese el nuevo nombre del item:");
           var nuevoPrecio = prompt("Por favor, ingrese el nuevo precio:");
           const actualizarItem = producto[productoBuscadoIndex];
           actualizarItem.item = nuevoNombre;
